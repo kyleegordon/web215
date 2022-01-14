@@ -1,0 +1,84 @@
+html
+{
+  overflow: hidden;
+  font-family: 'Dongle', sans-serif;
+}
+body
+{
+  /* image credit: Peter Gargiulo, unsplash.com */
+  background-image: url("https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  padding-bottom: 2%;
+  color: rgba(194, 240, 242, 0.9);
+}
+header
+{
+  font-variant: small-caps;
+  color: #950740;
+  background-color: rgba(6, 6, 8, 0.7);
+  height: 7vh;
+}
+
+main
+{
+  margin-top: 8vh;
+}
+
+h2
+{
+  color: #45A29E;
+}
+
+#toc_list
+{
+  list-style-type: none;
+  margin: auto;
+}
+
+.nav-link
+{
+  margin-right: 2%;
+}
+
+footer
+{
+    font-variant: small-caps;
+}
+
+.row 
+{
+    background-color: transparent;
+    margin: 2% 1%;
+}
+
+.text-responsive 
+{
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+/* unvisited link */
+a:link 
+{
+    color: #950740;
+    text-decoration: none;
+}
+  
+  /* visited link */
+  a:visited 
+  {
+    color: #950740;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover 
+  {
+    color: #66FCF1;
+    text-decoration: none;
+  }
+
+  #mountain_img
+  {
+    max-height: 25vw;
+    width: auto;
+  }
+  
