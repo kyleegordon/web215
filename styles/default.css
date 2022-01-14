@@ -10,7 +10,7 @@ body
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
-  /* background-size: cover; */
+  background-size: cover;
   padding-bottom: 2%;
   color: rgba(194, 240, 242, 0.9);
 }
