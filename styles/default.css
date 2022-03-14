@@ -1,5 +1,5 @@
 html {
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
@@ -15,14 +15,15 @@ body {
 header {
   font-variant: small-caps;
   color: #c70d57;
-  background-color: rgba(6, 6, 8, 0.7);
+  background-color: rgba(6, 6, 8, 1);
   height: 90px;
   padding-right: 20px;
   padding-bottom: 15px;
+
 }
 
 main {
-  margin-top: 8vh;
+  margin-top: 10vh;
 
 }
 
