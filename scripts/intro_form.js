@@ -23,6 +23,8 @@ function getData()
 
 function displayData(dataArray, courses, willGraduate) 
 {
+  var lis = document.querySelectorAll('li');
+  Array.from(lis).forEach((li) => li.remove())
 
   for (let i = 0; i < dataArray.length; i++)
   {
