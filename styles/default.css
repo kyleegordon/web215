@@ -1,86 +1,97 @@
-html
-{
+html {
   overflow: hidden;
   font-family: 'Dongle', sans-serif;
 }
-body
-{
+
+body {
   width: 100%;
   height: 100%;
   /* image credit: Jeremy Bishop, unsplash.com */
   background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
-  padding-bottom: 2%;
+  padding-bottom: 4%;
   color: rgba(194, 240, 242, 0.9);
 }
-header
-{
+
+header {
   font-variant: small-caps;
-  color: #950740;
+  color: #c70d57;
   background-color: rgba(6, 6, 8, 0.7);
-  height: 7vh;
+  height: 90px;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
 
-main
-{
+main {
   margin-top: 8vh;
+  padding-bottom: 120px;
 }
 
-h2
-{
+h2 {
   color: #45A29E;
 }
 
-#toc_list
-{
+#toc_list {
   list-style-type: none;
   margin: auto;
 }
 
-.nav-link
-{
+.nav-link {
   margin-right: 2%;
+  padding-bottom: 15px;
 }
 
-footer
-{
-    font-variant: small-caps;
+footer {
+  font-variant: small-caps;
+  font-size: 2.2 rem;
+  padding-top: 1%;
 }
 
-.row 
-{
-    background-color: transparent;
-    margin: 2% 1%;
+.row {
+  background-color: transparent;
+  margin: 2% 1%;
 }
 
-.text-responsive 
-{
+.text-responsive {
   font-size: calc(100% + 1vw + 1vh);
 }
 
 /* unvisited link */
-a:link 
-{
-    color: #950740;
-    text-decoration: none;
+a:link {
+  color: #c70d57;
+  text-decoration: none;
 }
-  
-  /* visited link */
-  a:visited 
-  {
-    color: #950740;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover 
-  {
-    color: #66FCF1;
-    text-decoration: none;
-  }
 
-  #mountain_img
-  {
-    max-height: 25vw;
-    width: auto;
-  }
-  
+/* visited link */
+a:visited {
+  color: #c70d57;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #66FCF1;
+  text-decoration: none;
+}
+
+#mountain_img {
+  max-height: 25vw;
+  width: auto;
+}
+
+figcaption {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#intro-list {
+  font-size: 85%;
+
+}
+
+.container-fluid {
+  height: auto;
+}
+
+#logo {
+  text-align: left;
+}
