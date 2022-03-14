@@ -23,7 +23,6 @@ function getData()
 
 function displayData(dataArray, courses, willGraduate) 
 {
-  alert(willGraduate);
 
   for (let i = 0; i < dataArray.length; i++)
   {
