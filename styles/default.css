@@ -107,3 +107,53 @@ figcaption {
 i {
   padding-right: 5px;
 }
+
+#brand-div {
+  background-color: rgba(6, 6, 8, 0.7);
+  padding: 2%;
+}
+
+#colors {
+  list-style-type: none;
+}
+
+#colors li:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+#dot1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(194, 240, 242, 0.9);
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#dot2 {
+  height: 50px;
+  width: 50px;
+  background-color: #c70d57;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#dot3 {
+  height: 50px;
+  width: 50px;
+  background-color: #45A29E;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#dot4 {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(6, 6, 8, 0.7);
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid white;
+  vertical-align: middle;
+}
