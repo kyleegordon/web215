@@ -35,6 +35,10 @@ h2 {
   margin: auto;
 }
 
+#toc_list li {
+  padding-bottom: 10%;
+}
+
 .nav-link {
   margin-right: 2%;
   padding-bottom: 15px;
