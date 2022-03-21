@@ -70,8 +70,9 @@ h2 {
 }
 
 .nav-link {
-  margin-right: 2%;
+  
   margin-bottom: 15px;
+  text-align: right;
 }
 
 footer {
@@ -127,6 +128,7 @@ figcaption {
 
 #logo {
   text-align: left;
+  top: 0;
 }
 
 .assignment-title {
