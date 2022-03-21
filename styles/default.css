@@ -16,11 +16,13 @@ header {
   color: #c70d57;
   background-color: rgba(6, 6, 8, 1);
   height: 100px;
-  padding-right: 20px;
-  padding-bottom: 15px;
 
 }
 
+#header_nav {
+  margin-top: 1%;
+
+}
 .footer {
   background-color: rgba(6, 6, 8, 1);
 }
