@@ -1,7 +1,11 @@
 <%- include('header') -%>
-<!-- javascript can be embedded using the tags below -->
-<!-- the = sign will output the variables exactly as they are -->
-<%= content %>
-<br />
-<!-- the - sign will render any html tags that are included in the variables -->
-<%- content %> <%- include('footer') -%>
+
+<div id="root">
+    <!-- javascript can be embedded using the tags below -->
+    <!-- the = sign will output the variables exactly as they are -->
+    <!-- <%= content %> -->
+
+    <!-- the - sign will render any html tags that are included in the variables -->
+    <%- content %> 
+</div>
+<%- include('footer') -%>
