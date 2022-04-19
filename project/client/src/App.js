@@ -22,7 +22,12 @@ function App() {
       age: age,
       username: username,
     }).then((response) => {
-      alert("Success, user created");
+      //This allows it to update list immediately after adding new user
+      setListOfUsers([...listOfUsers, {
+        name: name,
+        age: age,
+        username: username,
+      }])
     })
   };
 
