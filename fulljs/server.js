@@ -13,16 +13,16 @@ server.get('/', (req, res) => {
     //this will render the html by passing it the name of the view
     //variable can be passed via the second argument
     res.render('index', {
-        content: "Hello Express and <em>EJS</em>!"
-    })
+        content: "..."
+    });
 });
+
+server.use('/api', apiRouter);
 
 //this is middleware that allows easier access to static resources
 //express will automatically find and serve the requested resource
 //  as long as the file is in the public folder
 server.use(express.static('public'));
-
-server.use('/api', apiRouter);
 
 
 //This is one way to send display html file based on url, but using the above option is easier ^^^
