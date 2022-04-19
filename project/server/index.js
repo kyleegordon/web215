@@ -3,8 +3,12 @@ const app = express();
 const mongoose = require("mongoose");
 const UserModel = require("./models/Users");
 
+const cors = require("cors");
+
 //convert json to objects
 app.use(express.json());
+
+app.use(cors());
 
 mongoose.connect("mongodb+srv://kgordon:GDdx7dEu4EBEqlTA@cluster0.30xep.mongodb.net/web215?retryWrites=true&w=majority");
 
