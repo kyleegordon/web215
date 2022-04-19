@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(cors());
 
-mongoose.connect("mongodb+srv://kgordon:GDdx7dEu4EBEqlTA@cluster0.30xep.mongodb.net/web215?retryWrites=true&w=majority");
+mongoose.connect();
 
 //get user data
 app.get("/getUsers", (req, res) => {
